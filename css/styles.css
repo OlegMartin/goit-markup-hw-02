@@ -17,19 +17,29 @@ body {
   letter-spacing: 0.03em
 }
 /* logo */
-.logo {
-  font-family: raleway ,sans-serif;
+.logo-blue {
+  font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.14;
+  line-height: 1.19;
+/* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196F3;
+
 }
 
-.logo  .blue {
-  color: var(--accent-color);
-  }
-.logo > .black {
-  color: var(--tittle-text-color);
+.logo-black {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: black;
+}
   
 
 }
